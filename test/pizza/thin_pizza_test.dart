@@ -2,7 +2,7 @@ import 'package:test/test.dart';
 
 import '../../lib/src/pizza/thin_pizza.dart';
 import '../../lib/src/sauces/tomato_sauce.dart';
-import '../helper/mock_helper.dart';
+import '../helper/mock_topping_helper.dart';
 
 void main() {
   ThinPizza sut;

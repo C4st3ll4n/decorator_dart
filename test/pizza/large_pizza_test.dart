@@ -1,7 +1,7 @@
 import 'package:test/test.dart';
 
 import '../../lib/src/pizza/large_pizza.dart';
-import '../helper/mock_helper.dart';
+import '../helper/mock_topping_helper.dart';
 
 void main() {
   LargePizza sut;
