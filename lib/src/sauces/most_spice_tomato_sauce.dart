@@ -1,4 +1,3 @@
-import 'package:caixa_eletronico_state/src/pizza.dart';
 import '../toppingDecorator.dart';
 import 'spice_tomato_sauce.dart';
 

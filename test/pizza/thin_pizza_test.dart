@@ -1,7 +1,5 @@
 import 'package:test/test.dart';
-
 import '../../lib/src/pizza/thin_pizza.dart';
-import '../../lib/src/sauces/tomato_sauce.dart';
 import '../helper/mock_topping_helper.dart';
 
 void main() {
@@ -22,12 +20,12 @@ void main() {
 
   test(
       "Should return the right cost when tomato sauce added to the large pizza",
-          () {
-        top = mockToppingDecorator(
-          price: 5,
-          pizza: sut,
-        );
-        expect(top.cost, 23.00);
-        expect(top.description, "Massa de pizza fina, fake topping");
-      });
+      () {
+    top = mockToppingDecorator(
+      price: 15,
+      pizza: sut,
+    );
+    expect(top.cost, 23.00);
+    expect(top.description, "Massa de pizza fina, fake topping");
+  });
 }
